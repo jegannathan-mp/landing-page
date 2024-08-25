@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={logos.car_logo} alt="" className='footer-logo' />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, libero.</p>
+                <p>Providing exceptional car care with a focus on safety, quality, and reliability. Your trusted partner in keeping your vehicle in peak condition.</p>
                 <div className="footer-social-icons">
                     <Link to='https://www.instagram.com/_._jon.snow_._'><img src={logos.insta_gram} alt="" /></Link>
                     <Link to='https://github.com/jegannathan-mp'><img src={logos.git_hub} alt="" /></Link>
