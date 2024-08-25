@@ -1,0 +1,104 @@
+.speciality{
+    margin-top: 100px;
+}
+
+.speciality1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+
+}
+
+.speciality1::-webkit-scrollbar{
+    display: none;
+}
+
+.speciality1 img{
+    width: 300px;
+    border-radius: 20px;
+    filter: brightness(70%);
+}
+
+.speciality1 > div{
+    position: relative;
+
+}
+
+.spec_para{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    margin-top: 20px;
+    background-color: transparent;
+    
+}
+
+.spec_para h6,
+.spec_para h4{
+    background-color: transparent;
+}
+
+
+.spec_para h6{
+    color: #ced4da;
+}
+
+.sp1 h4{
+    font-style: italic;
+    color: rgb(123, 241, 168);
+}
+
+.sp2,
+.sp3{
+    color: rgb(179, 179, 38);
+    font-style: italic;
+}
+
+
+.speciality2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+.speciality2::-webkit-scrollbar{
+    display: none;
+}
+
+.speciality2 img{
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(179, 179, 38);
+    margin-bottom: 10px;
+}
+
+.speciality2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.speciality2 h5{
+    color: rgba(206, 212, 218);
+}
+
+.speciality2 p{
+    color: rgba(206, 212, 218,.8);
+}
+
+
+.speciality hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background-color: rgb(207, 204, 204);
+    border: none;
+}

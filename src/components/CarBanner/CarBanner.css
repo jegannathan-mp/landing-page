@@ -1,0 +1,94 @@
+.carbanner_head{
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.carbanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    height: 85%;
+    width: 100%;
+    padding: 20px;
+    color: #ced4da;
+    background-color: transparent;
+}
+
+
+.carbanner_img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    filter: brightness(50%);
+}
+
+.carb1{
+    display: flex;
+    gap: 50px;
+    align-items: first baseline;
+    padding-left: 30px;
+    background-color: transparent;
+}
+
+.carb2{
+    padding-right: 30px !important;
+    background-color: transparent;
+}
+
+.carb_div1,
+.carb_div2 h4,
+.carb_div2 p,
+.carb_div2{
+    background-color: transparent;
+}
+
+.carb_div2h4{
+    color: rgba(206, 212, 218);    
+}
+
+.carb_div2 p{
+    color: rgba(206, 212, 218,.7);
+}
+
+.carb_div1 img{
+    width: 50px;
+    position: relative;
+    top: 5px;
+    background-color:rgb(179, 179, 38);
+    border-radius: 50%;
+}
+
+.carb2{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+}
+
+.carb2 input{
+    width: 75%;
+    height: 35px;
+    border-radius: 5px 0px 0px 5px;
+    color: #ced4da;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-block: 1px solid rgb(179, 179, 38);
+    background-color: transparent;
+
+}
+
+.carb2 button{
+    width: 25%;
+    height: 35px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: small;   
+    line-height: 10px;
+    background-color:rgb(179, 179, 38);
+}
