@@ -52,14 +52,19 @@
     padding: 10px;
     border-radius: 4px;
     color: #111d13;
-    background-color: #7bf1a8;
+    background-color: rgb(123, 241, 168);
     font-size: 15px;
     cursor: pointer;
     transition: .3s;
 }
 
 .login-popup-container button:hover{
-    background-color: #56f392;
+    background-color: rgba(120, 242, 167,.6);
+    color: aliceblue;
+}
+
+.login_span_hover:hover{
+    color:rgb(123, 241, 168);
 }
 
 .login-popup-condition{

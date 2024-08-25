@@ -1,16 +1,15 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
-import { assets } from '../../assets/front-end-assets/assets';
+import { assets, logos } from '../../assets/front-end-assets/assets';
 
-import logo1 from '../../assets/CaroImg/logo1.png'
 
 const Navbar = ({setShowLogin}) => {
     const [menu, setMenu] = useState("home");
 
   return (
     <div  className='navbar'>
-        <Link to='/' ><img src={logo1} alt="Logo" className="logo" /></Link>
+        <Link to='/' ><img src={logos.car_logo} alt="Logo" className="logo" /></Link>
         <ul className="navbar-menu">
             <a href='#home' onClick={()=>setMenu("home")} className={menu==="home" ? "active" : ""}>home</a>
             <a href='#explore-menu' onClick={()=>setMenu("menu")} className={menu==="menu" ? "active" : ""}>menu</a>

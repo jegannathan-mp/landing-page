@@ -29,7 +29,7 @@ const Speciality = () => {
                         <h4>BREAK SYSTEM</h4>
                     </div>
                 </div>
-                <div>
+                <div className='car_steering'>
                     <img src={car_steering} alt="" />
                     <div className='spec_para sp3'>
                         <h6>THE BEST COLLECTION</h6>

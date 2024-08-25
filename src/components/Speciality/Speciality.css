@@ -4,9 +4,9 @@
 
 .speciality1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+    gap: max(4vw,15px);
     overflow-x: scroll;
 
 }
@@ -16,10 +16,19 @@
 }
 
 .speciality1 img{
-    width: 300px;
+    width: max(200px, 23vw);
     border-radius: 20px;
     filter: brightness(70%);
+    transition: 0.4s;
+    cursor: pointer;
 }
+
+.speciality1 img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+
 
 .speciality1 > div{
     position: relative;
@@ -43,11 +52,15 @@
 
 .spec_para h6{
     color: #ced4da;
+    font-size: max(1.3vw, 15px);
+    font-weight: 300;
 }
 
 .sp1 h4{
     font-style: italic;
     color: rgb(123, 241, 168);
+    font-size: max(1.75vw, 18px);
+    font-weight: 400;
 }
 
 .sp2,
@@ -58,7 +71,7 @@
 
 
 .speciality2{
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -71,7 +84,7 @@
 }
 
 .speciality2 img{
-    width: 40px;
+    width: max(3.5vw,20px);
     border-radius: 50%;
     background-color:rgb(179, 179, 38);
     margin-bottom: 10px;
@@ -88,10 +101,12 @@
 
 .speciality2 h5{
     color: rgba(206, 212, 218);
+    font-size: max(1.7vw,16px);
 }
 
 .speciality2 p{
     color: rgba(206, 212, 218,.8);
+    font-size: max(1.2vw, 12px);
 }
 
 
@@ -101,4 +116,28 @@
     margin: 20px 0;
     background-color: rgb(207, 204, 204);
     border: none;
+}
+
+@media (max-width:650px) {
+    .speciality1 img{
+        width: 150px;
+    }
+
+    .speciality1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .car_steering{
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+    .speciality2{
+        margin-bottom: 50px;
+    }
+    .speciality2 p{
+        display: none;
+    }
 }

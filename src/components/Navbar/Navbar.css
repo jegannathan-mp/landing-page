@@ -13,7 +13,7 @@
     width: 150px;
     height: 50px;
     background-color: transparent;
-    filter: brightness(70%);
+    filter: brightness(90%);
 
 }
 
@@ -45,7 +45,8 @@
 }
 
 .navbar button:hover{
-    background-color: #7bf1a8;
+    background-color: rgba(120, 242, 167,.6);
+    color: aliceblue;
 }
 
 .navbar .active{

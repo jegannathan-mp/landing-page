@@ -9,8 +9,8 @@ const Header = () => {
     <div className='header'>
         <img className='header_img' src={backimg} alt="" />
         <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>Choose from a diverse menu featuring a delectable array of dishes crafter with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
+            <h2>Get Your Car the Care It Deserves</h2>
+            <p>At our expert car service center, we provide high-quality maintenance and repair solutions to keep your vehicle in top condition. Whether it's brakes, wheels, or tires, our skilled technicians use the best tools and parts to ensure your car performs at its best. Trust us for reliable and efficient service every time.</p>
             <button >View Menu</button>
         </div>
     </div>

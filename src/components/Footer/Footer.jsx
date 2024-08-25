@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.css'
-import { assets } from '../../assets/front-end-assets/assets'
-import logo1 from '../../assets/CaroImg/logo1.png'
+import {logos } from '../../assets/front-end-assets/assets'
+import { Link } from 'react-router-dom'
+
 
 
 const Footer = () => {
@@ -9,20 +10,20 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={logo1} alt="" className='footer-logo' />
+                <img src={logos.car_logo} alt="" className='footer-logo' />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, libero.</p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.twitter_icon} alt="" />
-                    <img src={assets.linkedin_icon} alt="" />
+                    <Link to='https://www.instagram.com/_._jon.snow_._'><img src={logos.insta_gram} alt="" /></Link>
+                    <Link to='https://github.com/jegannathan-mp'><img src={logos.git_hub} alt="" /></Link>
+                    <Link to='https://www.linkedin.com/in/mpjegannathanmech'><img src={logos.linked_in} alt="" /></Link>
                 </div>
             </div>
             <div className="footer-content-center">
                 <h2>COMPANY</h2>
                 <ul>
                     <li>Home</li>
+                    <li>Menu</li>
                     <li>About us</li>
-                    <li>Delivery</li>
                     <li>Privacy policy</li>
                 </ul>
             </div>
@@ -35,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+        <p className="footer-copyright">Copyright 2024 © ijackx.com - All Right Reserved.</p>
     </div>
   )
 }

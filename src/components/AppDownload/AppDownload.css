@@ -8,12 +8,13 @@
 
 .app-download p{
     color: rgba(206, 212, 218,.9);
+    font-size: max(3vw, 16px);
 }
 
 .app-download-platforms{
     display: flex;
     justify-content: center;
-    gap: max(2vw, 10px);
+    gap: max(3vw, 10px);
     margin-top: 40px;
 }
 

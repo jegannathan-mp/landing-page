@@ -1,12 +1,10 @@
 import tire1 from './tire1.png'
 import tire2 from './tire2.png'
 import tire3 from './tire3.png'
-import tire4 from './tire4.png'
 
 import brake1 from './brake1.png'
 import brake2 from './brake2.png'
 import brake3 from './brake3.png'
-import brake4 from './brake4.png'
 
 export const tire_list = [
     {

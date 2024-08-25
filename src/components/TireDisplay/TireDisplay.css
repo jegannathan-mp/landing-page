@@ -1,6 +1,5 @@
 .tire_cont{
     display: flex;
-
 }
 
 .tire-first{
@@ -15,7 +14,7 @@
     padding-bottom: 5px;
     font-weight: 300;
     color: rgba(206, 212, 218);
-    
+    font-size: max(2vw, 20px);
 }
 
 .tire-first h2 span{
@@ -27,6 +26,7 @@
     list-style: none;
     line-height: 3rem;
     color: rgba(206, 212, 218,.7);
+    font-size: max(1.4vw, 16px);
 }
 
 .tire-display-list{
@@ -47,10 +47,16 @@
 }
 
 .tire-item-image{
-    width: 100%;
+    width: 90%;
     border-radius: 15px;
     padding: 10px;
     filter: brightness(60%);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.tire-item-image:hover{
+    transform: scale(1.05);
 }
 
 .tire-item-info{
@@ -59,12 +65,13 @@
 
 .tire-item h6{
     color: rgba(206, 212, 218);
+    font-size: max(1.50vw, 14px);
 }
 
 
 .tire-item-desc{
     color: rgba(206, 212, 218,.8);
-    font-size: 12px;
+    font-size: max(1vw,12px);
 }
 
 .tire-last-div{
@@ -74,8 +81,8 @@
 }
 
 .tire-item-price{
-    color: rgba(179, 179, 38);
-    font-size: 1.5rem;
+    color: rgba(206, 212, 218);
+    font-size: max(2vw, 20px);
     font-weight: 500;
     margin: 10px 0px;
 }
@@ -87,6 +94,7 @@
     padding: 5px 8px;
     border-radius: 10px;
     transition: .3s;
+    font-size: max(1.20vw, 12px);
 }
 
 .tire-last-div button:hover{
@@ -95,4 +103,50 @@
 
 .tire-item-image-container{
     position: relative;
+}
+
+
+@media (max-width:750px) {
+    .tire_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tire-display-list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tire-item-image{
+        height: max(40vw, 150px);
+    }
+
+    .tire-item h6{
+        font-size: max(3vw, 14px);
+    }
+
+    .tire-item-desc{
+        font-size: max(2vw,12px);
+    }
+
+    .tire-item-price{
+        font-size: max(3vw, 20px);
+    }
+
+    .tire-last-div{
+        display: flex;
+        gap: 40px;
+    }
+
+    .tire-last-div button{
+        font-size: max(2vw, 12px);
+    }
+
+    .tire-ul li{
+        line-height: 30px;
+    }
+    
 }
